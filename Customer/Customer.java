@@ -10,19 +10,19 @@ public class Customer
     idNumVar = idNum;
   }
 
-  //  returns the customer’s name
+  //  returns the customerâ€™s name
   public String getName ()
   {
     return nameVar;
   }
 
-  //  returns the customer’s id
+  //  returns the customerâ€™s id
   public int getID ()
   {
     return idNumVar;
   }
 
-  //  returns a string of “Customer name: <name>     id: <idNum>”  (Do not print the angle brackets < > .)
+  //  returns a string of â€œCustomer name: <name>     id: <idNum>â€  (Do not print the angle brackets < > .)
   public String toString ()
   {
     return "Customer name: " + nameVar + "\tid: " + idNumVar;
